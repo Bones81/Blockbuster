@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&display=swap');
+
+/* Font rules to use */
+/* font-family: 'Balsamiq Sans', cursive;
+font-family: 'Bebas Neue', cursive; */
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  /* background: lightblue; */
+  border: 10px solid black;
+  font-size: 1.2em;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 20px;
+  min-height: 25vh;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(225deg, darkred, goldenrod);
+}
+
+#player-stats, #current-message {
+  border: 5px solid black;
+  margin: 0.5em;
+  padding: 0.25em;
+  font-size: 1em;
+  font-family: 'Balsamiq Sans', cursive;
+  display: inline-block;
+  max-width: 40vw;
+  border-radius: 20px;
+}
+
+#player-stats {
+  background: linear-gradient(45deg, rgba(150,0,150,0.8), rgba(150,0,150,0.1))
+}
+
+#current-message {
+  background: linear-gradient(45deg, rgba(9, 105, 214, 0.8), rgba(9,105,214,0.1))
+}
+
+button {
+  padding: 1em;
+  margin: 1em;
+  background: radial-gradient(lightblue, blue);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.choice-button {
+  background: radial-gradient(orange, gold)
+}
+
+#current-job img {
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  margin: 10px 0 0 0;
+}
